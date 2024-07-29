@@ -2002,8 +2002,8 @@ ol li {
   }
 }
 .pricing-card .pricing-heading .price {
-  width: 60%;
-  max-width: 60%;
+  width: 100%;
+  max-width: 100%;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
