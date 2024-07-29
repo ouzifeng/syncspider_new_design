@@ -645,7 +645,7 @@ ol li {
 .header-area {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  background-color: transparent;
+  background-color: #4583fa;
   position: fixed;
   width: 100%;
   top: 0;
@@ -1311,6 +1311,7 @@ ol li {
     font-size: 3rem;
   }
 }
+
 .welcome-area.hero4 {
   background-color: #ffffff;
 }
@@ -1331,6 +1332,9 @@ ol li {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
+
+
+
 @media only screen and (min-width:992px) {
   .welcome-area.hero4 .welcome-content h2 {
     font-size: 2.25rem;
@@ -1391,6 +1395,44 @@ ol li {
 }
 .welcome-area.hero4 .hero4-slide-controls .tns-nav button.tns-nav-active {
   background-color: #0d6efd;
+}
+
+.welcome-area.hero5 .welcome3-slide-item {
+  width: 100%;
+  height: 500px;
+}
+@media only screen and (min-width:768px) {
+  .welcome-area.hero3 .welcome3-slide-item {
+    height: 500px;
+  }
+}
+@media only screen and (min-width:992px) {
+  .welcome-area.hero5 .welcome3-slide-item {
+    height: 660px;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .welcome-area.hero5 .welcome3-slide-item {
+    height: 750px;
+  }
+}
+@media only screen and (min-width:1400px) {
+  .welcome-area.hero5 .welcome3-slide-item {
+    height: 800px;
+  }
+}
+.welcome-area.hero5 .welcome-content h2 {
+  font-size: 1.75rem;
+}
+@media only screen and (min-width:992px) {
+  .welcome-area.hero5 .welcome-content h2 {
+    font-size: 2.125rem;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .welcome-area.hero5 .welcome-content h2 {
+    font-size: 3rem;
+  }
 }
 
 @-webkit-keyframes slideAnimation {
@@ -3805,7 +3847,7 @@ ol li {
   position: relative;
   z-index: 1;
   height: 200px;
-  background-color: #f1f4fd;
+  background-color: #3578f9;
 }
 @media only screen and (min-width:768px) {
   .breadcrumb-wrapper {
@@ -3874,13 +3916,13 @@ ol li {
   top: 3px;
 }
 .breadcrumb-wrapper.breadcrumb-bg-light .breadcrumb-title {
-  color: #1f0757;
+  color: white;
 }
 .breadcrumb-wrapper.breadcrumb-bg-light .breadcrumb .breadcrumb-item {
-  color: #8480ae;
+  color: white;
 }
 .breadcrumb-wrapper.breadcrumb-bg-light .breadcrumb .breadcrumb-item a {
-  color: #1f0757;
+  color: white;
 }
 .breadcrumb-wrapper.breadcrumb-bg-light .breadcrumb .breadcrumb-item a:hover, .breadcrumb-wrapper.breadcrumb-bg-light .breadcrumb .breadcrumb-item a:focus {
   color: #0d6efd;
