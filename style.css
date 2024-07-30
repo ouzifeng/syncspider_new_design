@@ -1991,6 +1991,7 @@ ol li {
 .pricing-card {
   position: relative;
   z-index: 1;
+
   border-radius: 0.75rem;
   padding: 40px;
   background-color: #ffffff;
@@ -3847,7 +3848,7 @@ ol li {
   position: relative;
   z-index: 1;
   height: 200px;
-  background-color: #3578f9;
+  background-color: #2a71f9;
 }
 @media only screen and (min-width:768px) {
   .breadcrumb-wrapper {
